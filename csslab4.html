@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style type="text/css">
+		th,td
+		{
+			padding: 20px 20px 20px 10px;
+			text-align: left;
+		}
+		table
+		{
+			border-collapse: collapse;
+			padding: 10px;
+			background-color:#ffffff;
+			width: 100%;
+		    font-family:verdana, sans-serif;
+		    font-size: 18px;
+		    font-weight: medium;
+		
+		}
+		div.textbox_width
+		{
+		
+			width:10px;
+			left: 90%;
+			top: 45px;
+		}
+		i.color1
+		{
+			color: #0099e6;
+			font-size: 18px;
+		}
+		i.color2
+		{
+			color:yellow;
+			font-size: 18px;
+		}
+		i.color3
+		{
+			color: red;
+			font-size: 18px;
+
+		}
+		.color4
+		{
+			color:black;
+			font-size:12px;
+		}
+		caption
+		{
+			position: relative;
+			padding-bottom: 10px;
+
+		}
+		.label_outer
+		{
+
+			position: relative;
+			left:00px;
+			top:20px;
+			display: inline;
+			font-family: verdana, sans-serif;
+		}
+		.label_entries
+		{
+			margin-left: 7px;
+			margin-top: 50px;
+			display: inline;
+			font-family: verdana, sans-serif;
+		}
+		div
+		{
+			position: relative;
+			left:500px;
+			top:20px;
+			text-transform: capitalize;
+			padding-left:10px;
+			display: inline-block;
+			height:10px;
+			width:5px;
+		}
+		.droptable
+	     {
+	     	position: relative;
+	     	left:60px;
+	     }
+	     .search
+	     {
+	     	width:90%;
+	     }
+	     
+
+		
+	</style>
+</head>
+<body>
+	<div class="textbox_width"> 
+			 <form action="/action_page.php">
+             <input type="search" style="font-size:14px;"placeholder="Search.." >
+ 			 </form>
+	</div>
+	<table border="">
+		<header>
+			<form>
+				<label value="" class="label_outer">Show</label>
+			</form>
+		<div class="label_outer">
+			<select >
+				<option value="">5</option>
+				<option value="">2</option>
+				<option value="">3</option>
+				<option value="">4</option>
+				<option value="5" >5</option>
+				<option value="" >6</option>
+				<option value="" >7</option>
+				<option value="" >8</option>
+				<option value="" >9</option>
+				<option value="" >10</option>
+				<option value="" >11</option>
+				<option value="" >12</option>
+				<option value="" >13</option>
+				<option value="" >14</option>
+				<option value="" >15</option>
+				<option value="" >16</option>
+				<option value="" >17</option>
+				<option value="" >18</option>
+				<option value="" >19</option>
+				<option value="" >20</option>
+				<option value="" >21</option>
+				<option value="" >22</option>
+				<option value="" >23</option>
+				<option value="" >24</option>
+				<option value="" >25</option>
+			</select>
+			<label value="" class="label_entries">entries</label>
+			<caption style="font-size: 26px;font-family: verdana, sans-serif">Customer <b>Details</b></caption>
+		</div>
+		</header>
+				<tr>
+					<th><b>#</b></th>
+					<th><b>Name</b></th>
+					<th><b>Address</b></th>
+					<th><b>City</b></th>
+					<th><b>Pincode</b></th>
+					<th><b>Country</b></th>
+		    		 <th><b>Actions</b></th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Thomas Hardy</td>
+					<td>89 Chiaroscouro Rd</td>
+					<td>Portland</td>
+					<td>97219</td>
+					<td>USA</td>
+					<td>
+						<i class="material-icons color1">visibilityon</i>
+						<i class="material-icons color2">edit</i>
+						<i class="material-icons color3" style="padding-left:28px;">delete</i>
+					</td>
+				</tr>
+   				<tr>
+   					<td>2</td><td>Maria Anders</td>
+					<td>Obere Str 57</td>
+					<td>Berlin</td>
+					<td>12209</td>
+					<td>Germany</td>
+					<td>
+						<i class="material-icons color1">visibilityon</i>
+						<i class="material-icons color2">edit</i>
+						<i class="material-icons color3" style="padding-left:28px";>delete</i>
+					</td>
+
+   				</tr>
+   				<tr>
+   					<td>3</td>
+   					<td>Fran Wilson</td>
+					<td>C/Araquil,67</td>
+					<td>Madrid</td>
+					<td>28023</td>
+					<td>Spain</td>
+					<td>
+						<i class="material-icons color1">visibilityon</i>
+						<i class="material-icons color2">edit</i>
+						<i class="material-icons color3" style="padding-left:28px";>delete</i>
+					</td>
+   				</tr>
+   				<tr>
+   					<td>4</td>
+   					<td>Dominique Perier</td>
+					<td>25,rue Lauriston</td>
+					<td>Paris</td>
+					<td>75016</td>
+					<td>France</td>
+					<td>
+						<i class="material-icons color1">visibilityon</i>
+						<i class="material-icons color2">edit</i>
+						<i class="material-icons color3" style="padding-left:28px";>delete</i>
+					</td>
+   				</tr>
+   				<tr>
+   					<td>5</td>
+   					<td>Martin Blank</td>
+					<td>Via MonteBlanco 34</td>
+					<td>Turin</td>
+					<td>10100</td>
+					<td>Italy</td>
+					<td >
+						<i class="material-icons color1">visibilityon</i>
+						<i class="material-icons color2">edit </i>
+						<i class="material-icons color3" style="padding-left:28px";>delete</i>
+					</td>
+   				</tr>
+	</table>
+	<footer style="font-size: 16px;font-family: verdana, sans-serif">
+		<p style="display: inline;word-spacing: 4px;">Showing 5 out of 25 entries</p>
+		<p style="display: inline;margin-left: 50%;">Previous </b><span style="letter-spacing:7px;">1  2<span style="border:1px solid black;border-radius: 25px;background-color:#0099e6;text-align: center;color:white;">3 </span> 4  5</span>Next</p>
+    </footer>
+
+</body>
+</html>
